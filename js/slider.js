@@ -3,15 +3,20 @@
 
     $(document).ready(function(){
     $('.carousel.carousel-slider').carousel({
-      fullWidth: true,
       indicators: true,
+      draggable: false,
     });
     autoplay()   
       function autoplay() {
     $('.carousel').carousel('next');
     setTimeout(autoplay, 4500);
 }
+$(".carousel.carousel-slider").click(function(){
+    $(".slide").fadeIn();
+});
   });
+
+
     
 
 function idea(){

@@ -22,6 +22,9 @@ body {
 	margin: 0 auto;
 	width: 100%;	
 	min-height: 100%;
+	transition: .3s ease-out;
+	user-select: none;
+	pointer-events: none;
 }
 .animated {
 	position: relative;
@@ -138,5 +141,29 @@ body {
     font-size: 93px;
   }
 
+/* Keyframes Here */
+/* FadeIn/Out */
+/*@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
 
 
+*/
